@@ -1,0 +1,22 @@
+# C#
+.vs
+bin
+obj
+
+# Terraform
+terraform.tfstate
+terraform.tfplan
+terraform.tfplan.json
+
+# TLA+
+**/*.toolbox/*
+!**/*.toolbox/*.launch
+**/*.toolbox/*SnapShot*.launch
+!**/*.toolbox/*.project
+*.out
+*.old
+**/states
+
+# TypeScript
+node_modules
+*.js

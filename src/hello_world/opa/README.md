@@ -1,0 +1,1 @@
+`opa eval -i input.json -d hello.rego "data.hello"`
